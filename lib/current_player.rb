@@ -1,5 +1,5 @@
-def turn_count(board1, board2)
-turn_count = ["X", "O"]
+def turn_count(board)
+turn_count = ["X", "O", "X"]
   counter = 0
   turn_count.each do |turn|
     puts
