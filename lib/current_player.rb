@@ -1,7 +1,9 @@
 def turn_count(board)
-turn_count = ["X", "O", "X"]
   counter = 0
-  turn_count.each do |turn|
-    puts
+  board.each do |player|
+    if player == "X" || player =="O"
   counter += 1
+end
+end
+counter
 end
